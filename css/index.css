@@ -1,0 +1,187 @@
+.body{
+    background-color: rgb(255, 160, 143);
+    font-family: 'Courier New', Courier, monospace
+}
+.menu{
+    display: flex;
+    border-bottom:  1px solid black; 
+    padding-bottom: 4px;
+    padding-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.items-menu{
+    margin-top: 13px;
+    display: flex;
+    margin-left: 45px;
+    width: 20%;
+}
+.item-menu{
+    margin-left: 19px;
+    font-size: 18px;
+}
+.text-menu{
+    animation: changeColor ease-in-out .8s infinite
+}
+.item-menu a{
+    text-decoration: none;
+    padding-bottom: 27px;
+}
+.item-menu.position{
+    position: relative;
+}
+.items-position{
+    display: none;
+    position: absolute;
+    width: 170px;
+    background-color: blanchedalmond;
+    top: 50px;
+    animation: changeColor ease-in-out .8s infinite
+}
+.item-menu.position:hover .items-position{
+    display: block;
+    color: black;
+    border-bottom: none;
+}
+.item-position{
+    padding: 5px;
+}
+.item-menu :hover{
+    border-bottom: 3px solid black;
+    
+}
+.title-menu{
+    font-size: 50px;
+    font-weight:400;
+    margin-left: 240px;
+    animation: changeColor ease-in-out .8s infinite;
+}
+@keyframes changeColor {
+    60% {color: rgb(245, 97, 97);}
+    100% {color: lightsalmon;}
+    1000% {color: rgb(240, 166, 178);}
+    70% {color: rgb(240, 218, 92);}
+}
+.content{
+    background-image: url("../img/Web_SexEdu/hoanhi.jpg");
+    padding-bottom: 80px;
+}
+.anhBia{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.content-otits{
+    display: flex;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 205px;
+    font-family: 'Courier New', Courier, monospace
+}
+.info-otits{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:  70px 30px 10px;
+    background-color: blanchedalmond;
+    position: relative
+}
+.otits{
+    padding-left: 5% ;
+    width: 40%;
+}
+.title-otits{
+    font-size: larger;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500
+}
+.detail-otits{
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400
+}
+.bieu-tuong{
+    font-weight: bold
+}
+.loai-cay{
+    font-weight: bold ;
+    text-align: center;
+    font-size: 25px
+}
+.box{
+    height: auto;
+    padding: 16px 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(241, 196, 129);
+    background-color: #fffcee;
+    box-shadow: 6px 6px 0 0 blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-decoration: none;
+    width: 200px;
+    margin-left: 610px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center
+}
+.box2{
+
+    height: auto;
+    padding: 20px 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(241, 196, 129);
+    background-color: #fffcee;
+    box-shadow: 6px 6px 0 0 blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-decoration: none;
+    width: 200px;
+    margin-left: 610px;
+    margin-top: 90px;
+    text-align: center;
+}
+.content-quotes-2{
+    display: flex;
+    margin-bottom: 90px;
+    font-family: 'Courier New', Courier, monospace
+}
+.content-quotes{
+    
+    font-size: 20px;
+    margin: 90px 145px auto;
+    justify-content: space-between;
+    
+}
+.pic-quotes{ 
+    width: 150%;
+}
+.title-quotes{
+    font-weight: bold;
+}
+.detail-quotes{
+    font-style: italic;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    border-top: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../img/Web_SexEdu/footer_hoa.jpg);
+}
+a{ text-decoration: none;
+    color: black}
+.footer-1{
+    margin-left: 60px;
+}
+.footer-4{
+    margin-right: 60px
+}
